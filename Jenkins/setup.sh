@@ -29,9 +29,9 @@ echo "Installing Jenkins..."
 sudo apt install -y jenkins
 
 # Ensure Jenkins has correct permissions for its directories
-echo "Setting Jenkins directory permissions..."
-sudo chown -R jenkins:jenkins /var/lib/jenkins /var/log/jenkins /var/cache/jenkins
-sudo chmod -R 755 /var/lib/jenkins /var/log/jenkins /var/cache/jenkins
+#echo "Setting Jenkins directory permissions..."
+#sudo chown -R jenkins:jenkins /var/lib/jenkins /var/log/jenkins /var/cache/jenkins
+#sudo chmod -R 755 /var/lib/jenkins /var/log/jenkins /var/cache/jenkins
 
 # Grant Jenkins user necessary permissions to run services
 echo "Granting Jenkins user permission to run services..."
